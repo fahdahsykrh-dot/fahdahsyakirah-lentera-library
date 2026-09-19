@@ -138,7 +138,8 @@ button {
 
 button:hover {
     background-color: #91a5bc;
-}
+} <br>
+
 /* kode baru */
 .tombol-form {
     display: flex;
