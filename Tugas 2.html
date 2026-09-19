@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../Tugas 1.html">
+</head>
+
+<body>
+
+<div class="form-container">
+
+    <h1>Formulir Pendaftaran</h1>
+    <div class="header">
+        <p>Silakan Lengkapi Data Diri Anda Untuk Melakukan Pendaftaran</p>
+   <div class="hiasan">— ● —</div>
+        </div>
+    <form>
+
+        <!-- AKUN PENGGUNA -->
+        <fieldset>
+            <i class="fa-solid fa-user"></i>
+            <legend>👤 Akun Pengguna</legend>
+
+            <div class="form-row">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"
+                       placeholder="Masukkan username">
+            </div>
+
+            <div class="form-row">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"
+                       placeholder="Masukkan password">
+            </div>
+
+            <div class="form-row">
+                <label for="konfirmasi">Konfirmasi Password:</label>
+                <input type="password" id="konfirmasi" name="konfirmasi"
+                       placeholder="Masukkan kembali password">
+            </div>
+
+        </fieldset>
+
+
+        <!-- DATA PENGGUNA -->
+        <fieldset>
+            <legend>▣ Data Pengguna</legend>
+
+            <div class="form-row">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama"
+                       placeholder="Masukkan nama lengkap Anda">
+            </div>
+
+            <div class="form-row">
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" name="alamat"
+                          placeholder="Masukkan alamat Anda"></textarea>
+            </div>
+
+            <div class="form-row">
+                <label for="nomor">Nomor HP:</label>
+                <input type="tel" id="nomor" name="nomor"
+                       placeholder="Masukkan nomor HP">
+            </div>
+
+            <div class="form-row">
+                <label>Jenis Kelamin:</label>
+
+                <div class="option-group">
+                    <label>
+                        <input type="radio" name="jenis_kelamin" value="pria">
+                        Pria
+                    </label>
+
+                    <label>
+                        <input type="radio" name="jenis_kelamin" value="wanita">
+                        Wanita
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="form-row">
+                <label for="prodi">Program Studi:</label>
+
+                <select id="prodi" name="prodi">
+                    <option value="">-- Pilih Program Studi --</option>
+                        <option>S1 Agribisnis</option> 
+                        <option>S1 Agroteknologi</option>  
+                        <option>S1 Peternakan</option>  
+                        <option>S1 Ilmu Pertanian</option>  
+                        <option>S1 Teknologi Pangan</option> 
+                        <option>S1 Ilmu Komputer</option> 
+                        <option>S1 Teknologi Informatika</option>
+                        <option>S1 Sastra Arab</option>
+                        <option>S1 Sastra Batak</option> 
+                        <option>S1 Sastra Inggris</option> 
+                        <option>S1 Sastra Jepan</option>  
+                        <option>S1 Sastra Melayu</option> 
+                        <option>S1 Sastra Cina/Mandarin</option>
+                        <option>S1 Etnomusikologi</option> 
+                        <option>S1 Ilmu Sejarah</option> 
+                        <option>S1 Perpustakaan dan Sains Informasi</option> 
+                        <option>S1 Ilmu Hukum</option> 
+                        <option>S1 Kehutanan</option>
+                        <option> S1 Biologi</option> 
+                        <option>S1 Fisika</option>
+                        <option>S1 Kimia</option> 
+                        <option>S1 Matematika</option> 
+                        <option>S1 Pendidikan Dokter</option> 
+                        <option>S1 Keperawatan</option> 
+                        <option>S1 Psikologi</option> 
+                        <option>D3 Akutansi</option> 
+                        <option>D3 Keuangan</option> 
+                        <option>D3 Statistika</option> 
+                        <option>D3 Perjalanan Wisata</option> 
+                </select>
+            </div>
+
+                   <!-- INFORMASI YANG DISUKAI -->
+                <div class="form-row pilihan-row">
+                    <label>Informasi Yang Disukai</label>
+
+                    <div class="pilihan">
+                        <label>
+                            <input type="checkbox" name="informasi" value="Novel">
+                            Novel
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="informasi" value="Buku Pelajaran">
+                            Buku Pelajaran
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="informasi" value="Buku Ilmiah">
+                            Buku Ilmiah
